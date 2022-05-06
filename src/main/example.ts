@@ -3,10 +3,10 @@ export class Example {
         return a + b;
     }
 
-    fizzBuzz(number: number): any {
-        if (number === 1) {
-            return "1";
+    fizzBuzz(input: number): any {
+        if (input % 3 === 0) {
+            return "Fizz";
         }
-        return "Fizz";
+        return input.toString();
     }
 }
