@@ -4,6 +4,9 @@ export class Example {
     }
 
     fizzBuzz(number: number): any {
-        return "1";
+        if (number === 1) {
+            return "1";
+        }
+        return "Fizz";
     }
 }
