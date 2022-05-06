@@ -10,6 +10,11 @@ describe('Fizz Buzz Kata', () => {
         let example: Example = new Example();
         expect(example.fizzBuzz(3)).toBe("Fizz");
     })
+
+    it("it should print Buzz if the given number is multiples of five", () => {
+        let example: Example = new Example();
+        expect(example.fizzBuzz(5)).toBe("Buzz");
+    })
 })
 
 
