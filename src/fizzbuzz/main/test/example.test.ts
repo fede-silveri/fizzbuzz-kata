@@ -1,4 +1,4 @@
-import { Example } from "../main/example";
+import { Example } from "../example";
 
 describe('Fizz Buzz Kata', () => {
     it("it should print the given number as a string", () => {
