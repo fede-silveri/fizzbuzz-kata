@@ -17,7 +17,7 @@ describe('Fibonacci Kata', () => {
     ${30}        | ${832040}
     ${null}      | ${0}
     ${undefined} | ${0}
-    ${'1'}       | ${0}
+    ${'1number'}       | ${0}
     `('should print the $position of the Fibonacci sequence', ({ position, expected }) => {
         expect(example.Fibonacci(position)).toBe(expected)
     });
